@@ -1,6 +1,6 @@
 <br/>
 <div align="center">
-<img src="./assets/skenas.svg" alt="Skenas Icons" width="150" />
+<img src="./assets/skenas.svg" alt="Skenas Design System" width="150" />
 <br/>
 <br/>
 
@@ -9,7 +9,7 @@ Skenas Design System
 </h2>
 <br/>
 <br/>
-<a href="https://es-icons.vercel.app/" target="_blank" rel="noopener noreferrer">
+<a href="https://es-design-system.vercel.app/" target="_blank" rel="noopener noreferrer">
   <!-- <strong>Browse the full icon gallery on Storybook »</strong> -->
 </a>
 <br/>
@@ -41,8 +41,8 @@ MIT © [Skenas Team](https://github.com/sadegh1379/es-design-system)
 <div align="center">
   <p>Made with ❤️ for the Skenas project</p>
   <p>
-    <a href="https://es-icons.vercel.app/">Documentation</a> •
-    <a href="https://github.com/sadegh1379/es-icons">GitHub</a> •
-    <a href="https://www.npmjs.com/package/@nikaat-crop/es-icons">NPM</a>
+    <a href="https://es-design-system.vercel.app/">Documentation</a> •
+    <a href="https://github.com/sadegh1379/es-design-system">GitHub</a> •
+    <a href="https://www.npmjs.com/package/@nikaat-crop/es-design-system">NPM</a>
   </p>
 </div>
