@@ -1,0 +1,66 @@
+{
+  "name": "@nikaat-crop/es-icons",
+  "version": "0.4.0",
+  "description": "A comprehensive collection of beautiful and modern SVG icons specifically designed for Skenas (اسکناس) project, featuring 160+ carefully crafted financial and service icons with TypeScript support.",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "release": "node release.js",
+    "icons:generate": "node script/svgr-convert-only-new.js && node script/update-icon-exports.js",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "author": "Skenas Team",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@storybook/addon-docs": "^9.0.18",
+    "@storybook/addon-webpack5-compiler-swc": "^3.0.0",
+    "@storybook/jest": "^0.2.2",
+    "@storybook/react-webpack5": "^9.0.18",
+    "@storybook/testing-library": "^0.2.1",
+    "@svgr/cli": "^8.1.0",
+    "@types/react": "^18.3.3",
+    "inquirer": "^8.2.6",
+    "react": "^18.3.1",
+    "rollup": "^4.18.1",
+    "rollup-plugin-dts": "^6.1.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "storybook": "^9.0.18",
+    "tslib": "^2.6.3",
+    "typescript": "^5.5.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sadegh1379/es-icons.git"
+  },
+  "keywords": [
+    "react",
+    "icons",
+    "svg",
+    "skenas",
+    "اسکناس",
+    "financial-icons",
+    "banking-icons",
+    "service-icons",
+    "react-icons",
+    "svg-icons",
+    "ui-icons",
+    "icon-pack",
+    "typescript",
+    "components",
+    "es-icons"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  }
+}
