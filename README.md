@@ -4,8 +4,9 @@
 <br/>
 <br/>
 
-<p align="center">
-This is the **Skenas Design System (اسکناس)** icon library
+<h2 align="center">
+Skenas Design System
+</h2>
 <br/>
 <br/>
 <a href="https://es-icons.vercel.app/" target="_blank" rel="noopener noreferrer">
@@ -13,7 +14,7 @@ This is the **Skenas Design System (اسکناس)** icon library
 </a>
 <br/>
 <br/>
-</p>
+</h2>
 </div>
 
 ## 📸 Demo
