@@ -1,0 +1,42 @@
+:root {
+  --skeleton-bg-light: #f9f9f9;
+  --skeleton-color-light: #e0e0e0;
+}
+
+.dark {
+  --skeleton-bg-light: #616161;
+  --skeleton-color-light: #4a4a4a79;
+}
+
+.skeletonGradient {
+  width: 100%;
+  height: 100%;
+  cursor: progress;
+  background:
+    linear-gradient(0.25turn, transparent, var(--skeleton-bg-light), transparent),
+    linear-gradient(var(--skeleton-color-light), var(--skeleton-color-light)),
+    radial-gradient(0px circle at 0px 0px, var(--skeleton-color-light) 50%, transparent 51%),
+    linear-gradient(var(--skeleton-color-light), var(--skeleton-color-light));
+  background-repeat: no-repeat;
+  background-size:
+    100% 100%,
+    100% 100%,
+    50% 50%,
+    50% 0;
+  background-position:
+    -315px 0,
+    0 0,
+    0px 190px,
+    50px 195px;
+  animation: loadingAnimation 1.5s infinite alternate;
+}
+
+@keyframes loadingAnimation {
+  to {
+    background-position:
+      315px 0,
+      0 0,
+      0 190px,
+      50px 195px;
+  }
+}

@@ -62,5 +62,10 @@
   "peerDependencies": {
     "react": ">=16.8.0",
     "react-dom": ">=16.8.0"
+  },
+  "dependencies": {
+    "@nikaat-crop/es-icons": "^0.4.0",
+    "class-variance-authority": "^0.7.1",
+    "tailwind-merge": "^2.5.4"
   }
 }
